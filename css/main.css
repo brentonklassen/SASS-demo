@@ -1,4 +1,10 @@
-/* the site will begin to wrap at this width */
+/* fonts */
+/* layout */
+/* menu */
+/* showcase section */
+/* features section */
+/* footer section */
+/* buttons */
 body {
   font-family: "Open Sans", sans-serif; }
 
@@ -13,7 +19,7 @@ body, p {
   margin: 0;
   padding: 0; }
 
-.menu, .feature {
+.menu, .feature, .footer {
   clear: both;
   overflow: hidden; }
 
@@ -36,14 +42,14 @@ body, p {
     margin: 0;
     padding: 0; }
   .menu a {
-    color: #FFF;
+    color: #EEE;
     font-size: 1.2em;
     font-weight: 300;
     opacity: .8;
     text-decoration: none;
     padding: 20px; }
   .menu a:hover {
-    opacity: 1; }
+    color: #FFF; }
   .menu li {
     display: inline-block; }
 
@@ -77,5 +83,14 @@ body, p {
 
 .button:hover {
   background-color: #444; }
+
+.footer {
+  background-color: #333333;
+  color: #FFF;
+  font-size: small;
+  text-align: center; }
+
+.footer-inner {
+  padding: 20px; }
 
 /*# sourceMappingURL=main.css.map */

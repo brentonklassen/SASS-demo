@@ -1,0 +1,12 @@
+.footer {
+	@extend %section;
+
+	background-color: $footer-background-color;
+	color: $footer-font-color;
+	font-size: $footer-font-size;
+	text-align: center;
+}
+
+.footer-inner {
+	padding: 20px;
+}

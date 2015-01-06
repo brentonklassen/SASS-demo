@@ -1,6 +1,31 @@
+/* fonts */
 $font: 'Open Sans', sans-serif;
-$font-color: #222;
 $font-header-weight: 800;
 
-/* the site will begin to wrap at this width */
+/* layout */
+$content-max-width: 1000px;
 $wrap-width: 540px;
+
+/* menu */
+$menu-background-color: slategray;
+$menu-link-color: #EEE;
+$menu-link-hover-color: #FFF;
+$menu-link-font-size: 1.2em;
+
+/* showcase section */
+$showcase-header-font-size: 3em;
+
+/* features section */
+$feature-background-color: rgb(215, 138, 0);
+$feature-font-color: #FFF;
+
+/* footer section */
+$footer-background-color: #333333;
+$footer-font-size: small;
+$footer-font-color: #FFF;
+
+/* buttons */
+$button-color: #333;
+$button-hover-color: #444;
+$button-font-color: #FFF;
+$button-border-radius: 3px;

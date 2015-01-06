@@ -1,7 +1,7 @@
 .menu {
 
 	@extend %section;
-	background-color: slategray;
+	background-color: $menu-background-color;
 	padding: 40px 0;
 
 	ul {
@@ -10,8 +10,8 @@
 	}
 
 	a {
-		color: #FFF;
-		font-size: 1.2em;
+		color: $menu-link-color;
+		font-size: $menu-link-font-size;
 		font-weight: 300;
 		opacity: .8;
 		text-decoration: none;
@@ -19,7 +19,7 @@
 	}
 
 	a:hover {
-		opacity: 1;
+		color: $menu-link-hover-color;
 	}
 
 	li {
