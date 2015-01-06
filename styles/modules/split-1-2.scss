@@ -1,0 +1,12 @@
+.split-1-2 {
+
+	overflow: hidden;
+
+	@media (min-width: $wrap-width) {
+		.split-side {
+			width: 50%;
+			float: left;
+
+		}
+	}
+}

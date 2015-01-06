@@ -1,3 +1,4 @@
+/* the site will begin to wrap at this width */
 body {
   font-family: "Open Sans", sans-serif; }
 
@@ -12,12 +13,21 @@ body, p {
   margin: 0;
   padding: 0; }
 
-.menu, .showcase, .feature {
-  clear: both; }
+.menu, .feature {
+  clear: both;
+  overflow: hidden; }
 
 .section-content {
   max-width: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
+
+.split-1-2 {
+  overflow: hidden; }
+  @media (min-width: 540px) {
+    .split-1-2 .split-side {
+      width: 50%;
+      float: left; } }
 
 .menu {
   background-color: slategray;
@@ -37,11 +47,6 @@ body, p {
   .menu li {
     display: inline-block; }
 
-@media (min-width: 540px) {
-  .showcase .showcase-left, .showcase .showcase-right {
-    width: 50%;
-    float: left; } }
-
 .showcase-inner {
   margin: 20px; }
   .showcase-inner img {
@@ -52,8 +57,9 @@ body, p {
 .feature {
   color: #FFF;
   background-color: #d78a00; }
-  .feature p {
-    padding: 20px; }
+
+.feature-inner {
+  padding: 20px; }
 
 .button {
   margin: 20px 0;
@@ -61,10 +67,15 @@ body, p {
   display: inline-block;
   text-decoration: none;
   clear: both;
-  background-color: #222;
-  color: #FFF; }
+  background-color: #333;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px; }
 
 .button:hover {
-  background-color: #333; }
+  background-color: #444; }
 
 /*# sourceMappingURL=main.css.map */

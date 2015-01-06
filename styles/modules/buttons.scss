@@ -5,11 +5,13 @@
 	display: inline-block;
 	text-decoration: none;
 	clear: both;
-	background-color: #222;
+	background-color: #333;
 	color: #FFF;
+
+	@include border-radius(3px);
 
 }
 
 .button:hover {
-	background-color: #333;
+	background-color: #444;
 }
