@@ -1,0 +1,28 @@
+.menu {
+
+	@extend %section;
+	background-color: slategray;
+	padding: 40px 0;
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		color: #FFF;
+		font-size: 1.2em;
+		font-weight: 300;
+		opacity: .8;
+		text-decoration: none;
+		padding: 20px;
+	}
+
+	a:hover {
+		opacity: 1;
+	}
+
+	li {
+		display: inline-block;
+	}
+}

@@ -1,0 +1,24 @@
+.showcase {
+
+	@extend %section;	
+
+	@media (min-width: 540px) {
+		.showcase-left, .showcase-right {
+			width: 50%;
+			float: left;
+
+		}
+	}
+}
+
+.showcase-inner {
+	margin: 20px;
+
+	img {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+}
