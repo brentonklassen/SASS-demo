@@ -8,12 +8,16 @@ h4,
 h5 {
   font-weight: 800; }
 
-body {
+body, p {
   margin: 0;
   padding: 0; }
 
 .menu, .showcase, .feature {
   clear: both; }
+
+.section-content {
+  max-width: 1000px;
+  margin: 0 auto; }
 
 .menu {
   background-color: slategray;
@@ -47,15 +51,16 @@ body {
 
 .feature {
   color: #FFF;
-  background-color: #d78a00;
-  padding: 20px; }
+  background-color: #d78a00; }
+  .feature p {
+    padding: 20px; }
 
 .button {
   margin: 20px 0;
-  display: inline-block;
-  clear: both;
-  text-decoration: none;
   padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  clear: both;
   background-color: #222;
   color: #FFF; }
 
